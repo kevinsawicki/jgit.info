@@ -10,6 +10,23 @@
 <link rel="stylesheet" href="css/highlight.css" type="text/css"
 	media="screen, projection" />
 
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push([ '_setAccount', 'UA-27941776-1' ]);
+	_gaq.push([ '_trackPageview' ]);
+
+	(function() {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+				: 'http://www')
+				+ '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
 </head>
 <body>
 
@@ -22,12 +39,34 @@
 		<div class="container-fluid">
 			<div class="sidebar">
 				<div class="well">
-					<h5>Sections</h5>
+					<h5>Contents</h5>
+					<ul>
+						<li><a href="overview.html">Overview</a></li>
+						<li><a href="installation.html">Installing</a></li>
+						<li><a href="repositories.html">Repositories</a></li>
+						<li><a href="objects.html">Objects</a>
+							<ul>
+								<li><a href="refs.html">Refs</a></li>
+								<li><a href="commits.html">Commits</a></li>
+								<li><a href="trees.html">Trees</a></li>
+								<li><a href="blobs.html">Blobs</a></li>
+							</ul></li>
+						<li><a href="commands.html">Commands</a></li>
+						<li><a href="advanced.html">Advanced</a>
+							<ul>
+								<li><a href="dfs.html">Distributed Filesystem (DFS)</a></li>
+								<li><a href="dht.html">Distributed Hashtable (DHT)</a></li>
+							</ul></li>
+						<li><a href="missing.html">Missing</a></li>
+						<li><a href="usage.html">Usage</a></li>
+						<li><a href="resources.html">Git Resources</a></li>
+					</ul>
 				</div>
 			</div>
 			<div class="content">{{ content }}</div>
 		</div>
 	</div>
+
 
 </body>
 </html>
