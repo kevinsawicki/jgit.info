@@ -3,10 +3,11 @@ layout: default
 title: jgit.info
 ---
 
-### Welcome to the JGit community book.
+# Introducing JGit
 
-{% highlight java %}
-Repository repo = new FileRepository("/repos/jgit/.git");
-ObjectId head = repo.resolve("HEAD");
-System.out.println("HEAD commit is: " + head.name());
-{% endhighlight %}
+[JGit](http://eclipse.org/jgit/) is an open-source implementation of the
+[Git](http://git-scm.com/) version control system written completely in Java.
+It is licensed under the [Eclipse Distribution License](http://www.eclipse.org/org/documents/edl-v10.php)
+and is developed under and distributed by the [Eclipse Foundation](http://eclipse.org/).
+
+
