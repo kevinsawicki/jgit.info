@@ -16,10 +16,10 @@ repositories over a network using various protocols such as HTTP, HTTPS, SSH, SF
 as well as the standard Git protocol.
 
 JGit also implements several core version control components such as computing
-differences and merging changes.
+differences between two revisions and merging one or more commits.
 
-The JGit [overview](overview.html) provides more details about the project and
-how it is structured and what libraries are needed by JGit.
+The JGit [overview](overview.html) provides more details about the project,
+how it is structured, and what libraries are needed by JGit.
 
 #### Ready to start using JGit?
 
