@@ -24,7 +24,7 @@ Add the following dependency to you POM file for the main JGit library:
 
 ## Other JGit JARs
 
-Besides the core library, the JGit Maven repository also provides the following artifacts:
+There are several other JGit components available besides the main JGit library:
 
 ### JGit Ant Tasks
 
