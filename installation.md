@@ -6,7 +6,7 @@ jgit_version: 2.0.0.201206130900-r
 
 # Installing JGit
 
-The latest release (1.3.0) of JGit can be downloaded [here](http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit/{{ page.jgit_version }}/org.eclipse.jgit-{{ page.jgit_version }}.jar).
+The latest release (2.0) of JGit can be downloaded [here](http://download.eclipse.org/jgit/maven/org/eclipse/jgit/org.eclipse.jgit/{{ page.jgit_version }}/org.eclipse.jgit-{{ page.jgit_version }}.jar).
 This is the main JAR file containing the JGit library without any dependencies included.
 ## JGit and Maven
 
