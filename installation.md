@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Installing JGit
-jgit_version: 1.3.0.201202151440-r
+jgit_version: 2.0.0.201206130900-r
 ---
 
 # Installing JGit
